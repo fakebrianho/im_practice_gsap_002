@@ -84,7 +84,7 @@ function interactions() {
 		gsap.to(meshes.sphere3.position, {
 			y: 0,
 			duration: 1,
-			delay: 1,
+			delay: 0.5,
 			ease: 'power1',
 		})
 	})

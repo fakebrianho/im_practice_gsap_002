@@ -57,7 +57,7 @@ function interactions() {
 		gsap.to(meshes.sphere1.position, {
 			y: 0,
 			duration: 1,
-			ease: 'power1',
+			ease: 'power1'
 		})
 		gsap.to(meshes.sphere2.scale, {
 			x: 2,
@@ -67,22 +67,15 @@ function interactions() {
 			delay: 0.5,
 			ease: 'power1',
 		})
-		gsap.to(meshes.sphere2.position, {
+		gsap.to(meshes.sphere1.position, {
 			y: 0,
 			duration: 1,
-			delay: 0.5,
-			ease: 'power1',
+			ease: 'power1'
 		})
 		gsap.to(meshes.sphere3.scale, {
 			x: 2,
 			y: 2,
 			z: 2,
-			duration: 1,
-			delay: 1,
-			ease: 'power1',
-		})
-		gsap.to(meshes.sphere3.position, {
-			y: 0,
 			duration: 1,
 			delay: 1,
 			ease: 'power1',

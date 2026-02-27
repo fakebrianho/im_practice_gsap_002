@@ -81,10 +81,10 @@ function interactions() {
 			delay: 1,
 			ease: 'power1',
 		})
-		gsap.to(meshes.sphere3.position, {
+		gsap.to(meshes.sphere2.position, {
 			y: 0,
 			duration: 1,
-			delay: 1,
+			delay: 0.5,
 			ease: 'power1',
 		})
 	})
